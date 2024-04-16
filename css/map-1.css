@@ -57,7 +57,7 @@ nav{
     color: rgb(217, 217, 217);
 }
 .content{
-    background: url(./index.pic/map\ bg.png);
+    background: url(../index.pic/map\ bg.png);
     background-size: cover;
 }
 .center{

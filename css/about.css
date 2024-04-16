@@ -64,15 +64,15 @@ nav{
     width: 1500px;
 }
 .cardbox-1{
-    background: url(./index.pic/about\ bg1.png);
+    background: url(../index.pic/about\ bg1.png);
     background-size: cover;
 }
 .cardbox-2{
-    background: url(./index.pic/about\ bg2.png);
+    background: url(../index.pic/about\ bg2.png);
     border-radius: 0 300px 0 0;
 }
 .cardbox-3{
-    background: url(./index.pic/about\ bg3.png);
+    background: url(../index.pic/about\ bg3.png);
     background-size: cover;
 }
 .card{

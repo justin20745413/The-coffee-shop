@@ -58,7 +58,7 @@ nav{
 }
 .content{
     margin-top: 100px;
-    background:url(./index.pic/connection\ bg.png);
+    background:url(../index.pic/connection\ bg.png);
     background-size: cover;
     display: flex;
     justify-content:center;
