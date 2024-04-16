@@ -1,0 +1,199 @@
+*{
+    font-family: 微軟正黑體;
+}
+nav{
+    height: 67px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    z-index: 10;
+}
+.nav-logo .logo{
+    margin: 15px 0 0 20px;
+}
+.nav-txt{
+    display: flex;
+}
+.nav-txt ul{
+    display: flex;
+}
+.nav-txt li{
+    margin: 25px;
+    color: aliceblue;
+    list-style: none;
+    font-size: 15px;
+}
+.nav-txt a{
+    text-decoration: none;
+}
+.nav-txt a :hover{
+    color: rgb(104, 129, 255);
+}
+.search-box{
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    width: 20px;
+    height: 28px;
+    margin: 17px;
+    border-radius: 15px 0 0 15px;
+}
+.fa-solid{
+    color: rgb(0, 0, 0);
+    margin: 7px 0 0 4px;
+}
+.search-b{
+    width: 120px;
+    border: 0px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0 15px 15px 0;
+}
+.bars{
+    font-size: 25px;
+    margin: 12px 20px 0 110px;
+}
+.fa-solid.fa-bars{
+    color: rgb(217, 217, 217);
+}
+.content{
+    margin-top: 100px;
+    background:url(/index.pic/connection\ bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+}
+.col-1{
+    margin: 40px 0 40px 40px;
+    width: 670px;
+    font-size: 13px;
+    color: aliceblue;
+}
+.col-1 h2{
+    border-bottom: 2px solid white;
+    text-align: center;
+    line-height: 50px;
+}
+.col-1 li{
+    line-height: 16px;
+    margin: 8px;
+    list-style: decimal;
+}
+.col-1  span{
+    margin-left: 19px;
+}
+.col-1 p{
+    line-height: 40px;
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    margin: 5px;
+    display: flex;
+    justify-content: right;
+}
+.col-1 input{
+    background-color: rgb(32, 32, 32);
+    border: 1PX SOLID white;
+    width: 300px;
+    color: aliceblue;
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+.btn-box button:hover{
+    cursor: pointer;
+}
+.col-1 button{
+    border-radius: 5px;
+    border: none;
+    margin: 12px;
+}
+.box-1 input{
+width: 300px;
+height: 140px;
+margin: 5px
+}
+.input-box label{
+    margin-right: 5px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 130px;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+.con h4{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-right:  -122px ;
+}
+.con p{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.email{
+    margin-top: 75px;
+    margin-left: -70px;
+    height: 190px;
+}
+.footer{
+    margin-top: 0;
+    background-color: rgb(32, 32, 32);
+    height: 118px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo img{
+    width: 80px;
+    margin: 10px 0 0 80px;
+    position: absolute;
+}
+.footer-txt{
+    text-align: left;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.footer-txt h3{
+    margin: 10px 0 10px 0;
+}
+.footer-ul{
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 2px solid white;
+    display: flex;
+    flex-flow: wrap;
+}
+.footer-li1{
+    margin-right: 30px;
+}
+.footer-li2{
+    margin-left: 30px;
+}
+.footer-ul li{
+    margin: 8px;
+}
+.footer-icon{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-iconli i{
+    margin: 8px;
+}

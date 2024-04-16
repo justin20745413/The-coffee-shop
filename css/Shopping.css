@@ -1,0 +1,196 @@
+*{
+    font-family: 微軟正黑體;
+}
+nav{
+    height: 67px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    z-index: 10;
+}
+.nav-logo .logo{
+    margin: 15px 0 0 20px;
+}
+.nav-txt{
+    display: flex;
+}
+.nav-txt ul{
+    display: flex;
+}
+.nav-txt li{
+    margin: 25px;
+    color: aliceblue;
+    list-style: none;
+    font-size: 15px;
+}
+.nav-txt a{
+    text-decoration: none;
+}
+.nav-txt a :hover{
+    color: rgb(104, 129, 255);
+}
+.search-box{
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    width: 20px;
+    height: 28px;
+    margin: 17px;
+    border-radius: 15px 0 0 15px;
+}
+.fa-solid{
+    color: rgb(0, 0, 0);
+    margin: 7px 0 0 4px;
+}
+.search-b{
+    width: 120px;
+    border: 0px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0 15px 15px 0;
+}
+.bars{
+    font-size: 25px;
+    margin: 12px 20px 0 110px;
+}
+.fa-solid.fa-bars{
+    color: rgb(217, 217, 217);
+}
+.column{
+    display: flex;
+    justify-content: center;
+    background: url(/index.pic/shooping\ bg2.png);
+    background-size: cover;
+    margin-top: 100px;
+}
+.wrap{  
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+}
+.cardbox1{
+    margin: 80px;
+}
+.col-3-1{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: 120px;
+}
+.col-3-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 150px;
+}
+.col-3-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.card{
+    margin: 25px;
+}
+.card h3{
+    color: aliceblue;
+    width: 208px;
+    padding: 10px 0 5px 0;
+}
+.card img{
+    width: 180px;
+}
+.title-p{
+    display: flex;
+    justify-content: center;
+    padding:30px 0 30px 0;
+}
+.p{
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+h4{
+    text-align: center;
+}
+.p p{
+    text-align: left;
+    margin: 8px;
+}
+.p li{
+    margin-top: 1px;
+}
+.p span{
+    margin-left: 106px;
+}
+
+.cardbox1 p{
+    font-size: 5px;
+    color: aliceblue;
+    text-align: left;
+    line-height: 20px;   
+}
+.col-3-1 a{
+    text-decoration: none;
+}
+.card p{
+    font-size: 12px;
+}
+.more-btn{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(28, 52, 174);
+    margin: 340px 0 0 -150px;
+    float: right;
+    color: rgb(28, 52, 174);
+}
+
+.footer{
+    margin-top: 5px;
+    background-color: rgb(32, 32, 32);
+    height: 118px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo img{
+    width: 80px;
+    margin: 10px 0 0 80px;
+    position: absolute;
+}
+.footer-txt{
+    text-align: left;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.footer-txt h3{
+    margin: 10px 0 10px 0;
+}
+.footer-ul{
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 2px solid white;
+    display: flex;
+    flex-flow: wrap;
+}
+.footer-li1{
+    margin-right: 30px;
+}
+.footer-li2{
+    margin-left: 30px;
+}
+.footer-ul li{
+    margin: 8px;
+}
+.footer-icon{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-iconli i{
+    margin: 8px;
+}

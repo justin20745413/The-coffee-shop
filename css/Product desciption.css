@@ -1,0 +1,207 @@
+*{
+    font-family: 微軟正黑體;
+}
+nav{
+    height: 67px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    z-index: 10;
+}
+.nav-logo .logo{
+    margin: 15px 0 0 20px;
+}
+.nav-txt{
+    display: flex;
+}
+.nav-txt ul{
+    display: flex;
+}
+.nav-txt li{
+    margin: 25px;
+    color: aliceblue;
+    list-style: none;
+    font-size: 15px;
+}
+.nav-txt a{
+    text-decoration: none;
+}
+.nav-txt a :hover{
+    color: rgb(104, 129, 255);
+}
+.search-box{
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    width: 20px;
+    height: 28px;
+    margin: 17px;
+    border-radius: 15px 0 0 15px;
+}
+.fa-solid{
+    color: rgb(0, 0, 0);
+    margin: 7px 0 0 4px;
+}
+.search-b{
+    width: 120px;
+    border: 0px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 0 15px 15px 0;
+}
+.bars{
+    font-size: 25px;
+    margin: 12px 20px 0 110px;
+}
+.fa-solid.fa-bars{
+    color: rgb(217, 217, 217);
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.row-bg{
+    margin-top: 30px;
+    background: url(/index.pic/product\ desciption.png);
+    background-size: cover;
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+}
+.card-1{
+    display: flex;
+}
+.card-1 img{
+    margin: 80px 20px 45px 20px;
+}
+.box-1{
+    margin: 80px 80px 0px 40px;
+    padding-right: 20px;
+}
+.txt{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.txt li{
+    list-style: none;
+    margin: 8px 5px 0px 15px;
+    font-size: 15px;
+    color: black;
+}
+.txt p{
+    line-height: 18px;
+    font-size: 12px;
+    color: aliceblue;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn input{
+    border-radius: 10px;
+    border: 1px solid rgb(32, 32, 32);
+    width: 30px;
+}
+.btn button{
+    border-radius: 50px;
+    border: 1px solid rgb(32, 32, 32);
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    background: rgb(217,217,217);
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.black-box button{
+    background: black;
+    color: aliceblue;
+}
+.img-1 img{
+    margin: 0 22px 0px 22px;
+}
+.card-2{
+    margin: 0px 25px 25px 50px;
+    font-size: 10px;
+    width: 600px;
+}
+.card-2 p{
+margin-top: 5px;
+margin-bottom: 3px;
+}
+.card-2 li{
+    line-height: 14px;
+    list-style: number;
+}
+.card-2 span{
+    margin-left: 10px;
+}
+.img-2 img{
+    margin: -27px 20px 0px 20px;
+}
+.txt-box{
+    display: flex;
+    justify-content: center;
+}
+.txt-footer{
+    width: 670px;
+    font-size: 12px;
+    margin: 15px;
+    line-height: 18px;
+}
+.txt-footer span{
+    margin-left: 15px;
+}
+
+.footer{
+    margin-top: 5px;
+    background-color: rgb(32, 32, 32);
+    height: 118px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo img{
+    width: 80px;
+    margin: 10px 0 0 80px;
+    position: absolute;
+}
+.footer-txt{
+    text-align: left;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.footer-txt h3{
+    margin: 10px 0 10px 0;
+}
+.footer-ul{
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 2px solid white;
+    display: flex;
+    flex-flow: wrap;
+}
+.footer-li1{
+    margin-right: 30px;
+}
+.footer-li2{
+    margin-left: 30px;
+}
+.footer-ul li{
+    margin: 8px;
+}
+.footer-icon{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-iconli i{
+    margin: 8px;
+}
