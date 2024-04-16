@@ -59,7 +59,7 @@ nav{
 .column{
     display: flex;
     justify-content: center;
-    background: url(/index.pic/shooping\ bg2.png);
+    background: url(./index.pic/shooping\ bg2.png);
     background-size: cover;
     margin-top: 100px;
 }

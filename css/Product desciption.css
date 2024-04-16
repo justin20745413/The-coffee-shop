@@ -62,7 +62,7 @@ nav{
 }
 .row-bg{
     margin-top: 30px;
-    background: url(/index.pic/product\ desciption.png);
+    background: url(./index.pic/product\ desciption.png);
     background-size: cover;
 }
 .col-1{
