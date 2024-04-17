@@ -99,11 +99,17 @@ nav{
     display: flex;
     justify-content: right;
 }
+.box-1{
+    margin: 10px -2px 5px 5px;
+    display: flex;
+    justify-content: right;
+}
 .col-1 input{
     background-color: rgb(32, 32, 32);
     border: 1PX SOLID white;
     width: 300px;
     color: aliceblue;
+    padding-bottom: 13px;
 }
 .btn-box{
     display: flex;
@@ -117,10 +123,17 @@ nav{
     border: none;
     margin: 12px;
 }
-.box-1 input{
-width: 300px;
-height: 140px;
-margin: 5px
+.box-1 textarea{
+    width: 300px;
+    height: 140px;
+    margin: 5px;
+    border: 1PX SOLID white;
+    background-color:rgb(32, 32, 32);
+    resize:none;
+    color: aliceblue;
+}
+textarea{
+    
 }
 .input-box label{
     margin-right: 5px;
@@ -133,20 +146,23 @@ margin: 5px
     height: 130px;
     margin-left: 200px;
     flex-wrap: wrap;
+    padding-top: 6px;
+    padding: 10px;
 }
 .con h4{
     text-align: center;
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     margin-right:  -122px ;
 }
 .con p{
     font-size: 10px;
-    margin-left: 20px;
+    margin-left: 13px;
+    line-height: 12px;
 }
 .email{
-    margin-top: 75px;
-    margin-left: -70px;
+    margin-top: 73px;
+    margin-left: -50px;
     height: 190px;
 }
 .footer{
