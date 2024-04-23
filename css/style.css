@@ -5,16 +5,18 @@ nav{
     height: 67px;
     background-color: rgb(32, 32, 32);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top:0px;
     z-index: 10;
 }
 .nav-logo .logo{
-    margin: 15px 0 0 20px;
+    margin: 15px 0px 0 -90px;
+    width:100px;
 }
 .nav-txt{
     display: flex;
+    margin-right: -30px;
 }
 .nav-txt ul{
     display: flex;
@@ -49,29 +51,22 @@ nav{
     background-color: rgb(217, 217, 217);
     border-radius: 0 15px 15px 0;
 }
-.bars{
-    font-size: 25px;
-    margin: 12px 20px 0 110px;
-}
-.fa-solid.fa-bars{
-    color: rgb(217, 217, 217);
-}
-.section{
-    text-align: left;
+.all-box{
+    margin: 0px;
 }
 .box-1{
     width: 500px;
     height: 215px;
     background-color: rgb(28, 52, 174);
     position: absolute;
-    margin: 150px 0 0 0;
+    margin: 150px 0px 0 0;
 }
 .box-1 h1{
     color: aliceblue;
     font-size: 55px;
-    margin-top: 20px;
     text-align: right;
-    line-height:55px
+    line-height:60px;
+    margin: 20px;
 }
 .txt-1{
     margin: 0 180px 0 0;
@@ -84,165 +79,180 @@ nav{
     justify-content: right;
 }
 .container1{
-    margin-top: -169px;
-    background: url(../index.pic/black1.png);
+    margin-top: 0px;
+    background-image: url(../index.pic/black1.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .box-2{
-    background: rgb(28, 52, 174);
-    width: 300PX;
-    height: 80px;
-    position: absolute;
-    margin-top: 120px;
+    margin: 147px;
+    border: 1px solid white;
+    border-radius: 102px;
+    width: 1000px;
+    height: 380px;
+}
+.txt{
+    width: 544px;
+    height: 65px;
+    background-color: rgb(28, 47, 147);
+    margin-left: -30%;
+    margin-top: -3%;
 }
 .txt h2{
-    font-size: 22px;
-    color: aliceblue;
     text-align: end;
-    margin: 30px;
+    font-size: 24px;
+    color: aliceblue;
+    margin-right:30px;
+    padding-top: 20px;
 }
-.section-new{
-    margin-top: 164px;
-}
-.col-4{
+.card-box{
     display: flex;
     justify-content: center;
 }
 .card{
-    margin: 250px 30px 30px 20px ;
+    border: 1px solid white;
+    margin: 8px;
 }
-.card h3{
-    width: 198px;
-    height: 30px;
-    border: 2px solid aliceblue;
+.card img{
+    width: 150px;
+    height: 220px;
+}
+.card p{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+.date{
+    text-align: end;
+}
+.date span{
+    font-size: 8px;
+}
+.icon-c{
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 80px 0;
+}
+.fa-window-minimize{
     color: aliceblue;
-    padding: 18px 0 2px 2px;
+    margin-top: -19px;
 }
-.slide__dot{
-    display: flex;
-    justify-content: center;
-    margin: 30px 0 0 0;
-    padding: 0 0 px 200px;
-}
-.dot {
-    width: 15px;
-    height: 15px;
-    margin: 2px 10px;
-    border-radius: 50%;
-    border: 1px solid rgb(217, 217, 217);
-    background: rgb(217, 217, 217);
-}
-.dot1{
-    width: 72px;
-    height: 19px;
-    border-radius: 11px;
-    border: 1px solid rgb(217, 217, 217);
-    background: rgb(217, 217, 217);
-}
-.video{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    padding: 150px;
-}
-.container2{
-    background: url(../index.pic/blue1.png);
-    background-size: cover;
-    margin-top: -100px;
-    display: flex;
-    justify-content: center;
+.fa-circle{
+    color: aliceblue;
+    font-size: 5px;
+    margin-left: 18px;
 }
 .box-3{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1200px;
+    justify-content: center;
 }
-.box-3 img{
-width: 200px;
-height: 300px;
-margin: 300px 20px 90px 150px;
+.btn-class{
+    margin: 50px 0 50px 0;
 
 }
-.box-3 h3{
-height: 20px;
-font-size: 22px;
-color: rgb(32, 32, 32);
-margin: 270px 30px 30px 30px;
+.box-3 img{
+    margin-left: 10px;
+    width: 40%;
+    height: 100%;
 }
-.box-3 .txt p{
-    width: 645px;
-    height: 20px;
-    line-height: 25px;
-    font-size: 14px;
-    color: rgb(32, 32, 32);
-    margin: 20px 30px 40px 53px;
+.container2{
+    display: flex;
+    justify-content: center;
 }
-.more-btn{
-    width: 60px;
-    height: 30px;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(28, 52, 174);
-    float: right;
-    margin: 60px 30px 0 0;
-    color: rgb(28, 52, 174);
-}
-.more-btn:hover{
-    cursor: pointer;
-}
-.container3{
-    background: url(../index.pic/blue2.png);
-    background-size: cover;
-    flex-direction: column;
-    position: relative;
-}
-.txt-3{
-    background: rgb(28, 52, 174);
-    width: 300PX;
-    height: 80px;
-    position: absolute;
-    top: 20px;
-}
-.txt-3 h2{
-    font-size: 22px;
-    color: aliceblue;
-    text-align: end;
+.col-2{
+    display: flex;
     margin: 30px;
 }
-.coffee-beans{
-    text-align: center;
+.img-2-1 img{
+    width: 90%;
+}
+.txt-p{
+    width: 690px;
+    margin: 40px;
+}
+.txt-p h3{
+    margin-top: 70px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.txt-p p{
+margin: 80px 0px 30px 20px;
+font-size: 18px;
+}
+.btn-more{
+    display: flex;
+    justify-content: end;
+    margin-top: 150px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background: white;
+    color: rgb(28, 47, 147);
+    border: 1px solid rgb(28, 47, 147);
+    font-size: 20px;
+    border-radius: 30px;
+}
+.container3{
+    background-image: url(../index.pic/black2.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
 }
-.txt-4{
-    color: aliceblue;
-    width: 900px;
-    margin: 140px 0 100px 0px;
+.col-3{
+    margin: 100px 0 0 0;
+    width: 1110px;
+    border: 2px solid white;
+}
+.txt-p-1{
+    padding: 90px 30px 20px 20px;
+}
+.txt-p-1 h3{
+    font-size: 24px;
+    color: white;
+    margin: 10px 0px 40px 10px;
+}
+.txt-p-1 li{
+    font-size: 18px;
+    color: white;
+    list-style: number;
     line-height: 25px;
-    text-align: left;
+    margin: 25px 0px 0 60px;
 }
-.backc{
-    width: 910px;
-    margin: 10px 0 0px -2px;
+.txt-p-1 li span{
+    margin-left: 20px;
 }
-.coffee-img{
+.btn-more-1{
+    display: flex;
+    justify-content: end;
+    margin: 0 20px 20px 0;
+}
+.container4{
+    background-color: rgb(32, 32, 32);
+}
+.img-2{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.end-class{
     display: flex;
     justify-content: center;
 }
-.coffee-img img{
-    width: 280px;
-    margin: 20px;
-}
-.slong{
-    display: flex;
-    justify-content: center;
-}
-.slong p{
-    width: 1000px;
+.end-class h2{
+    font-size: 24px;
+    color: azure;
     text-align: center;
-    color: aliceblue;
-    margin: 35px;
+    padding: 30px;
+}
+.class-b{
+    width: 665px;
+    padding-bottom: 100px;
+}
+.class-b img{
+    margin: 15px;
 }
 .footer{
     margin-top: 5px;
