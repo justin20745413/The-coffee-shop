@@ -5,16 +5,18 @@ nav{
     height: 67px;
     background-color: rgb(32, 32, 32);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top:0px;
     z-index: 10;
 }
 .nav-logo .logo{
-    margin: 15px 0 0 20px;
+    margin: 15px 0px 0 -90px;
+    width:100px;
 }
 .nav-txt{
     display: flex;
+    margin-right: -30px;
 }
 .nav-txt ul{
     display: flex;
@@ -48,13 +50,6 @@ nav{
     border: 0px;
     background-color: rgb(217, 217, 217);
     border-radius: 0 15px 15px 0;
-}
-.bars{
-    font-size: 25px;
-    margin: 12px 20px 0 110px;
-}
-.fa-solid.fa-bars{
-    color: rgb(217, 217, 217);
 }
 .content{
     display: flex;

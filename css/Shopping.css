@@ -5,16 +5,18 @@ nav{
     height: 67px;
     background-color: rgb(32, 32, 32);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top:0px;
     z-index: 10;
 }
 .nav-logo .logo{
-    margin: 15px 0 0 20px;
+    margin: 15px 0px 0 -90px;
+    width:100px;
 }
 .nav-txt{
     display: flex;
+    margin-right: -30px;
 }
 .nav-txt ul{
     display: flex;
@@ -49,33 +51,42 @@ nav{
     background-color: rgb(217, 217, 217);
     border-radius: 0 15px 15px 0;
 }
-.bars{
-    font-size: 25px;
-    margin: 12px 20px 0 110px;
-}
-.fa-solid.fa-bars{
-    color: rgb(217, 217, 217);
-}
 .column{
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
+.wrap{
+    background: #ffffff;
+    padding:  0 100px 0 100px;
+}
+li{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 20px;
+    list-style: number;
+}
+.end-p span{
+    margin-left: 100px;
+}
 .cardbox1{
     display: flex;
     background-color: rgb(32, 32, 32);
-    padding: 100px;
+    padding: 70px 100px 50px 100px;
     border-radius: 20px 20px 0 0;
 }
 .col-3-1{
     display: flex;
+    border-top: 1px solid white;
 }
 .card{
     margin: 10px;
     line-height: 20px;
 }
 .card p{
-    margin: 3px;
+    margin: 5px;
+    font-size: 12px;
 }
 a{
     text-decoration: none;
@@ -84,27 +95,33 @@ a{
 p{
     text-decoration: none;
     color: aliceblue;
-
 }
 h3{
     text-decoration: none;
     color: aliceblue;
 }
+h4{
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+}
 .col-3-2{
     display: flex;
+    border-top: 1px solid white;
 }
 .cardbox2{
     display: flex;
     background-color: rgb(32, 32, 32);
-    padding: 100px;
+    padding: 70px 100px 50px 100px;
 }
 .col-3-3{
     display: flex;
+    border-top: 1px solid white;
 }
 .cardbox3{
     display: flex;
     background-color: rgb(32, 32, 32);
-    padding: 100px;
+    padding: 70px 100px 50px 100px;
     border-radius: 0 0 20px 20px;
 }
 .btn{
@@ -123,7 +140,12 @@ h3{
 }
 .end-p{
     background-color: rgb(28, 47, 147);
-    padding: 100px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.end-p h4{
+    margin: 0 0 10px 0;
 }
 .footer{
     margin-top: 5px;

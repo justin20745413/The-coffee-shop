@@ -5,16 +5,18 @@ nav{
     height: 67px;
     background-color: rgb(32, 32, 32);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top:0px;
     z-index: 10;
 }
 .nav-logo .logo{
-    margin: 15px 0 0 20px;
+    margin: 15px 0px 0 -90px;
+    width:100px;
 }
 .nav-txt{
     display: flex;
+    margin-right: -30px;
 }
 .nav-txt ul{
     display: flex;
@@ -49,116 +51,88 @@ nav{
     background-color: rgb(217, 217, 217);
     border-radius: 0 15px 15px 0;
 }
-.bars{
-    font-size: 25px;
-    margin: 12px 20px 0 110px;
-}
-.fa-solid.fa-bars{
-    color: rgb(217, 217, 217);
-}
 .content{
-    margin-top: 100px;
-    background:url(../index.pic/connection\ bg.png);
-    background-size: cover;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    margin: 50px;
+}
+.row{
 }
 .col-1{
-    margin: 40px 0 40px 40px;
-    width: 670px;
-    font-size: 13px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+    padding: 50px 50px 80px 50px;
+    font-size: 16px;
     color: aliceblue;
 }
 .col-1 h2{
     border-bottom: 2px solid white;
+    padding: 15px;
     text-align: center;
-    line-height: 50px;
+    font-size: 20px;
 }
 .col-1 li{
-    line-height: 16px;
-    margin: 8px;
-    list-style: decimal;
-}
-.col-1  span{
-    margin-left: 19px;
+    line-height: 25px;
+    list-style: number;
 }
 .col-1 p{
-    line-height: 40px;
+    margin: 10px;
 }
 .inputbox{
     display: flex;
     justify-content: center;
-
-}
-.input-box{
-    display: flex;
-    flex-direction: column;
 }
 .box{
-    margin: 5px;
     display: flex;
-    justify-content: right;
+    justify-content: end;
+    margin: 10px;
 }
-.box-1{
-    margin: 10px -px 5px 5px;
-    display: flex;
-    justify-content: right;
+.box label{
+    margin: 10px;
 }
-.col-1 input{
-    background-color: rgb(32, 32, 32);
-    border: 1PX SOLID white;
+.box input{
     width: 300px;
-    color: aliceblue;
+}
+.box-1 label{
+    margin: 6px;
+}
+textarea{
+    resize:none;
+    width:302px;
+    height:100px;
 }
 .btn-box{
     display: flex;
     justify-content: center;
 }
-.btn-box button:hover{
-    cursor: pointer;
+.btn-box button{
+    margin: 30px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(28, 47, 147);
+    border-radius: 20px;
+    color: rgb(28, 47, 147);
 }
-.col-1 button{
-    border-radius: 5px;
-    border: none;
-    margin: 12px;
-}
-.box-1 textarea{
-    width: 300px;
-    height: 140px;
-    margin: 5px;
-    border: 1PX SOLID white;
-    background-color:rgb(32, 32, 32);
-    resize:none;
-    color: aliceblue;
-}
-.input-box label{
-    margin-right: 5px;
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 -10px 0;
 }
 .con{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 450px;
-    height: 130px;
-    margin-left: 210px;
-    flex-wrap: wrap;
-    margin-top: -6px;
+    background-color: rgb(28, 47, 147);
+    padding: 20px 60px 20px 60px;
+    color: aliceblue;
+    border-radius: 20px;
 }
 .con h4{
     text-align: center;
-    font-size: 14px;
-    margin-bottom: 15px;
-    margin-right:  -122px ;
+    border-bottom: 1px solid white;
+    padding: 10px 80px 10px 80px;
 }
 .con p{
-    font-size: 10px;
-    margin-left: 20px;
-    margin
-}
-.email{
-    margin-top: 75px;
-    margin-left: -70px;
-    height: 190px;
+    line-height: 25px;
+    text-align: center;
 }
 .footer{
     margin-top: 0;
