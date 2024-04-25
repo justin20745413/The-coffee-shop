@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,28 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/CSS Reset.css">
     <script src="https://kit.fontawesome.com/0f956f44d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <style>
+        .icon-c{
+            position: relative;
+            margin-top: 40px;
+        }
+        .card-box{
+            position: relative;
+            width: 900px;
+        }
+        .swiper-button-next{
+            color: blue;
+
+        }
+        .swiper-button-prev{
+            color: blue;
+
+        }
+    </style>
 </head>
+
 <body>
     <nav class="nav">
         <div class="nav-logo">
@@ -16,11 +38,21 @@
         </div>
         <div class="nav-txt">
             <ul>
-                <a href="./hot news.html"><li>最新消息</li></a>
-                <a href="./Shopping.html"><li>商品介紹</li></a>
-                <a href="./about.html"><li>關於我們</li></a>
-                <a href="./connection.html"><li>聯絡我們</li></a>
-                <a href="./map.html"><li>門市資訊</li></a>
+                <a href="./hot news.html">
+                    <li>最新消息</li>
+                </a>
+                <a href="./Shopping.html">
+                    <li>商品介紹</li>
+                </a>
+                <a href="./about.html">
+                    <li>關於我們</li>
+                </a>
+                <a href="./connection.html">
+                    <li>聯絡我們</li>
+                </a>
+                <a href="./map.html">
+                    <li>門市資訊</li>
+                </a>
             </ul>
             <div class="search">
                 <div class="search-box">
@@ -34,61 +66,69 @@
         <div class="all-box">
             <div class="box-1">
                 <h1>
-                <span class="txt-1">THE</br></span>
-                <span class="txt-2">COFFEE</br></span>
-                SHOP
+                    <span class="txt-1">THE</br></span>
+                    <span class="txt-2">COFFEE</br></span>
+                    SHOP
                 </h1>
             </div>
             <div class="big-pic">
-                <img src="./index.pic/BIGPIC.png"alt="bigpic">
-            </div>   
+                <img src="./index.pic/BIGPIC.png" alt="bigpic">
+            </div>
             <div class="container1">
                 <div class="row">
                     <div class="box-2">
                         <div class="txt">
-                        <h2>最 新 消 息</h2>
+                            <h2>最 新 消 息</h2>
                         </div>
-                        <div class="card-box">
-                        <div class="card">
+                        <div class="swiper mySwiper">
+                            <div class="card-box swiper-wrapper">
+                                <div class="card swiper-slide">
                                     <p>新品深培美式熱銷上市</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index1.png"alt="">
-                        </div>
-                        <div class="card">
+                                    <img src="./index.pic/index1.png" alt="">
+                                </div>
+                                <div class="card swiper-slide">
                                     <p>咖啡組特價中，歡迎...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index2.png"alt="">
-                        </div>
-                        <div class="card">
-                                    <p>慶祝台灣隊賽進決賽...</p>
+                                    <img src="./index.pic/index2.png" alt="">
+                                </div>
+                                <div class="card swiper-slide">
+                                    <a href="./hot news.html"><p>慶祝台灣隊賽進決賽...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index3.png"alt="">
-                        </div>
-                        <div class="card">
+                                    <img src="./index.pic/index3.png" alt=""></a>
+                                </div>
+                                <div class="card swiper-slide">
                                     <p>#hashtag完城活動...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index4.png"alt="">
-                        </div>
-                        </div>
-                        <div class="icon-c">
-                            <i class="fa-solid fa-window-minimize fa-2x"></i>
-                            <i class="fa-solid fa-circle fa-fw"></i>
-                            <i class="fa-solid fa-circle"></i>
-                            <i class="fa-solid fa-circle"></i>  
-                            <i class="fa-solid fa-circle"></i>  
-                        </div> 
+                                    <img src="./index.pic/index4.png" alt="">
+                                </div>
+                                <div class="card swiper-slide">
+                                    <p>咖啡組特價中，歡迎...</p>
+                                    <p class="date"><span>2024/11/10~12/23</span></p>
+                                    <img src="./index.pic/index2.png" alt="">
+                                </div>
+                                <div class="card swiper-slide">
+                                    <p>慶祝台灣隊賽進決賽...</p>
+                                    <p class="date"><span>2024/11/10~12/23</span></p>
+                                    <img src="./index.pic/index3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="icon-c swiper-pagination"></div>
+                        </div>  
                     </div>
                     <div class="box-3">
                         <div class="txt">
                             <h2>相 關 課 程</h2>
                         </div>
                         <div class="btn-class">
-                            <a href=""><img src="./index.pic/index1-1.png"  alt=""></a>
+                            <a href=""><img src="./index.pic/index1-1.png" alt=""></a>
                             <a href=""><img src="./index.pic/index1-2.png" alt=""></a>
 
                         </div>
                     </div>
-                </div>    
+                </div>
             </div>
             <div class="container2">
                 <div class="col-2">
@@ -97,22 +137,28 @@
                     </div>
                     <div class="txt-p">
                         <h3>品牌故事</h3>
-                        <p>我們的品牌理念是提供優質的咖啡和糕點，以及溫馨舒適的環境，讓客人可以在這裡放鬆身心，享受美好時光。我們重視每一位顧客，致力於提供親切友善的服務，並不斷努力提升產品品質和服務水準，以滿足客人的需求和期望。此外，我們也關注社會和環境議題，致力於負責任的經營，促進社會和環境的可持續發展...</p>
+                        <p>我們的品牌理念是提供優質的咖啡和糕點，以及溫馨舒適的環境，讓客人可以在這裡放鬆身心，享受美好時光。我們重視每一位顧客，致力於提供親切友善的服務，並不斷努力提升產品品質和服務水準，以滿足客人的需求和期望。此外，我們也關注社會和環境議題，致力於負責任的經營，促進社會和環境的可持續發展...
+                        </p>
                         <div class="btn-more">
                             <button>More</button>
-                        </div> 
-                    </div>   
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="container3">
                 <div class="col-3">
                     <div class="txt-p-1">
                         <h3>咖啡豆產地介紹</h3>
-                        <li>哥倫比亞：哥倫比亞是世界上最大的阿拉比卡咖啡生產國之一。其咖啡豆通常具有溫和的口感和平衡的酸度，風味擁有水<span>果、巧克力和堅果的特點。哥倫比亞的咖啡種植地區主要分布在安地斯山脈和海拔高度較高的地區。</span></li>
-                        <li>巴西：巴西是世界上最大的咖啡生產國，主要生產羅布斯塔豆和阿拉比卡豆。巴西的咖啡風味通常較為濃郁，具有堅果、巧<span>克力和焦糖的味道，並帶有微妙的甜味。巴西的咖啡豆主要生長在東南部的米納斯吉拉斯州、聖保羅州和巴拉那州。</span></li>
-                        <li>埃塞俄比亞：作為咖啡的原產地之一，埃塞俄比亞的咖啡豆具有豐富的多樣性和獨特的風味。不同地區的埃塞俄比亞咖啡風<span>味迥異，但通常具有明亮的酸度、花香和水果的味道，特別是藍山（Yirgacheffe）和希蘭（Sidamo）等產區。</span></li>
-                        <li>哥斯達黎加：哥斯達黎加的咖啡豆通常具有平衡的酸度和甜度，風味擁有堅果、巧克力和水果的特點。哥斯達黎加的咖啡豆<span>主要生長在中央山脈和西部山區，高海拔和豐富的降雨為其提供了理想的種植條件。</span></li>
-                        <li>肯亞：肯亞的阿拉比卡咖啡豆以其鮮明的酸度和複雜的風味而聞名，通常具有明亮的水果、花香和酸味的特點。肯亞的咖啡<span>豆主要生長在高海拔的山區，氣候條件和土壤為其風味的形成提供了重要影響。</span></li>
+                        <li>哥倫比亞：哥倫比亞是世界上最大的阿拉比卡咖啡生產國之一。其咖啡豆通常具有溫和的口感和平衡的酸度，風味擁有水<span>果、巧克力和堅果的特點。哥倫比亞的咖啡種植地區主要分布在安地斯山脈和海拔高度較高的地區。</span>
+                        </li>
+                        <li>巴西：巴西是世界上最大的咖啡生產國，主要生產羅布斯塔豆和阿拉比卡豆。巴西的咖啡風味通常較為濃郁，具有堅果、巧<span>克力和焦糖的味道，並帶有微妙的甜味。巴西的咖啡豆主要生長在東南部的米納斯吉拉斯州、聖保羅州和巴拉那州。</span>
+                        </li>
+                        <li>埃塞俄比亞：作為咖啡的原產地之一，埃塞俄比亞的咖啡豆具有豐富的多樣性和獨特的風味。不同地區的埃塞俄比亞咖啡風<span>味迥異，但通常具有明亮的酸度、花香和水果的味道，特別是藍山（Yirgacheffe）和希蘭（Sidamo）等產區。</span>
+                        </li>
+                        <li>哥斯達黎加：哥斯達黎加的咖啡豆通常具有平衡的酸度和甜度，風味擁有堅果、巧克力和水果的特點。哥斯達黎加的咖啡豆<span>主要生長在中央山脈和西部山區，高海拔和豐富的降雨為其提供了理想的種植條件。</span>
+                        </li>
+                        <li>肯亞：肯亞的阿拉比卡咖啡豆以其鮮明的酸度和複雜的風味而聞名，通常具有明亮的水果、花香和酸味的特點。肯亞的咖啡<span>豆主要生長在高海拔的山區，氣候條件和土壤為其風味的形成提供了重要影響。</span>
+                        </li>
                     </div>
                     <div class="btn-more-1">
                         <button>More</button>
@@ -121,21 +167,21 @@
             </div>
             <div class="container4">
                 <div class="img-2">
-                <img src="./index.pic/blue1.png"  alt="">
+                    <img src="./index.pic/blue1.png" width="900px" alt="">
                 </div>
                 <div class="end-class">
                     <div class="row">
                         <h2>相關資訊</h2>
                         <div class="class-b">
-                        <img src="./index.pic/index4-1.png" alt="" width="300px">
-                        <img src="./index.pic/index4-2.png" alt="" width="300px">
-                        <img src="./index.pic/index4-3.png" alt="" width="300px">
-                        <img src="./index.pic/index4-4.png" alt="" width="300px">
+                            <img src="./index.pic/index4-1.png" alt="" width="300px">
+                            <img src="./index.pic/index4-2.png" alt="" width="300px">
+                            <img src="./index.pic/index4-3.png" alt="" width="300px">
+                            <img src="./index.pic/index4-4.png" alt="" width="300px">
                         </div>
                     </div>
                 </div>
-            </div>    
-        </div>    
+            </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="footer-logo">
@@ -145,15 +191,15 @@
             <div class="footer-box">
                 <h3>聯絡我們</h3>
                 <ul class="footer-ul">
-                <div class="footer-li1">
-                <li>營業時間 | AM 09:00-22:00</li>
-                <li>連絡電話 | (02)2111-1111</li>
-                
-                </div>
-                <div class="footer-li2">
-                <li>地址 | 320 桃園市中壢區復興路46號</li>
-                <li>聯絡信箱 | justin20745413@gmail.com.tw</li>
-                </div>
+                    <div class="footer-li1">
+                        <li>營業時間 | AM 09:00-22:00</li>
+                        <li>連絡電話 | (02)2111-1111</li>
+
+                    </div>
+                    <div class="footer-li2">
+                        <li>地址 | 320 桃園市中壢區復興路46號</li>
+                        <li>聯絡信箱 | justin20745413@gmail.com.tw</li>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -165,5 +211,37 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            centeredSlides: true,
+            autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+            spaceBetween: 30,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
 </body>
+
 </html>

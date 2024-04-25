@@ -54,53 +54,29 @@ nav{
 .column{
     display: flex;
     justify-content: center;
-    background: url(../index.pic/hot\ news\ bg3.png);
-    background-size: cover;
-}
-.wrap{  
-    display: flex;
-    flex-wrap: wrap;
-    width: 960px;
 }
 .cardbox1{
-margin: 80px;
-}
-.cardbox2{
-    margin-left: 85px;
-    margin-bottom: 50px;
-}
-.title{
-    margin-top: -15px;
-}
-.title h2{
-    font-size: 28px;
+    margin: 50px;
 }
 .col-3{
+    background-color: rgb(32, 32, 32);
     display: flex;
-    justify-content: center;
+    padding: 50px;
 }
 .card{
-    margin: 40px;
-}
-.card h3{
-    color: aliceblue;
-    border: 1px solid white;
-    height: 60px;
-    width: 208px;
-    padding: 10px;
-}
-.card img{
-    width: 230px;
-}
-.p{
     display: flex;
-    justify-content: center;
-    padding:30px 0 30px 0;
+    color: aliceblue;
 }
-p{
+.txt h3{
+    margin: 0px 40px 10px 40px;
+}
+.txt-1{
+    margin: 0 10px 30px 70px;
+    line-height: 25px
+}
+.p-1{
     text-align: center;
-    font-size: 12px;
-    
+    margin-bottom: 30px;
 }
 .footer{
     margin-top: 5px;
