@@ -25,9 +25,11 @@ body{
     width: 100%;
 }
 .main-nav{
-    margin: 10px 0px 0px 40px;
+    margin: 14px 0px 0px 40px;
     margin-right: -210px;
-    
+}
+.main-nav a{
+margin-left: 20px;
 }
 /* -------------------- */
 .main-header .hb {
