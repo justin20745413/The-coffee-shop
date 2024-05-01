@@ -10,9 +10,42 @@
         position: absolute;
         background-color:  rgb(28, 52, 174);
         top: 87%;
-        left: 20%;
+        left: 29%;
         width: 70%;
         border: 1px solid white;
+    }
+    .main-nav a{
+        margin-left: 0px;
+    }
+    .box-1{
+        width: 150px;
+        height: 100px;
+        margin-top: 40px;
+    }
+    .box-1 h1{
+        font-size: 25px;
+        line-height:25px;
+    }
+    .big-pic img{
+        width: 100%;
+    }
+    .box-2{
+        margin: 20px;
+    }
+    .txt{
+        margin: 20px;
+        margin-right: 600px;
+        width: 90px;
+        height: 30px
+    }
+    .txt h2{
+        margin-right:20px;
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .card-box{
+        display: flex;
+        justify-content: start;
     }
 }
 @media screen and (min-width: 768px) {
@@ -60,4 +93,5 @@
     .search{
         display: none;
     }
+
 }

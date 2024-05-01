@@ -10,10 +10,13 @@
         position: absolute;
         background-color:  rgb(28, 52, 174);
         top: 87%;
-        left: 20%;
+        left: 29%;
         width: 70%;
         border: 1px solid white;
     }
+    .main-nav a{
+        margin-left: 0px;
+        }
 }
 @media screen and (min-width: 768px) {
     .main-header .main-nav{
@@ -60,4 +63,5 @@
     .search{
         display: none;
     }
+
 }

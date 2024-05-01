@@ -111,11 +111,9 @@ margin-left: 20px;
     height: 380px;
 }
 .txt{
-    width: 544px;
+    width: 180px;
     height: 65px;
     background-color: rgb(28, 47, 147);
-    margin-left: -30%;
-    margin-top: -3%;
 }
 .txt h2{
     text-align: end;
@@ -131,6 +129,9 @@ margin-left: 20px;
 .card{
     border: 1px solid white;
     margin: 8px;
+}
+a{
+    text-decoration:none
 }
 .card img{
     width: 100%;
