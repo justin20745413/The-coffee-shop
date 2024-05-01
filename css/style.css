@@ -216,17 +216,18 @@ a{
     width: 90%;
 }
 .txt-p{
-    width:600px;
+    width:500px;
     margin: 40px;
 }
 .txt-p h3{
-    margin-top: 70px;
+    margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
 }
 .txt-p p{
-margin: 80px 0px 30px 20px;
+margin: 20px 0px 30px 20px;
 font-size: 18px;
+line-height: 30px;
 }
 .btn-more{
     display: flex;
@@ -251,10 +252,10 @@ button{
 .col-3{
     margin: 100px 0 0 0;
     width: 900px;
-    border: 2px solid white;
 }
 .txt-p-1{
     padding: 90px 30px 20px 20px;
+    border: 2px solid white;
 }
 .txt-p-1 h3{
     font-size: 24px;
