@@ -101,19 +101,22 @@ margin-left: 20px;
     margin-top: 0px;
     background-image: url(../index.pic/black1.png);
     background-size: cover;
-    display: flex;
+    
     justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
 }
 .box-2{
     margin: 147px;
     border-radius: 102px;
-    width: 1000px;
-    height: 380px;
 }
 .txt{
     width: 180px;
     height: 65px;
     background-color: rgb(28, 47, 147);
+
 }
 .txt h2{
     text-align: end;
@@ -124,20 +127,37 @@ margin-left: 20px;
 }
 .card-box{
     display: flex;
-    justify-content: center;
 }
 .card{
+    display: flex;
     border: 1px solid white;
-    margin: 8px;
+    flex-direction: column;
+    margin: 10px;
+}
+.card-1{
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    margin: 10px;
 }
 a{
     text-decoration:none
 }
 .card img{
     width: 100%;
-    height: 300px;
+    height: 100%;
+}
+.card-1 img{
+    width: 100%;
+    height: 100%;
 }
 .card p{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+.card-1 p{
     font-size: 13px;
     font-weight: bold;
     color: white;
@@ -149,11 +169,6 @@ a{
 .date span{
     font-size: 8px;
 }
-.icon-c{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-}
 .fa-window-minimize{
     color: aliceblue;
     margin-top: -19px;
@@ -164,17 +179,30 @@ a{
     margin-left: 18px;
 }
 .box-3{
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    margin-left: 150px;
 }
 .btn-class{
-    margin: 50px 0 50px 0;
-
+    margin: 60px 0 80px 0;
+}
+.btn-class img{
+    width: 400px;
+    margin: 0px 50px 0 20px;
+}
+.txtclass{
+    width: 180px;
+    height: 65px;
+    background-color: rgb(28, 47, 147);
+}
+.txtclass h2{
+    text-align: end;
+    font-size: 24px;
+    color: aliceblue;
+    margin-right:30px;
+    padding-top: 20px;
 }
 .box-3 img{
-    margin-left: 10px;
-    width: 40%;
-    height: 100%;
+
 }
 .container2{
     display: flex;

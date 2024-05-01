@@ -31,12 +31,12 @@
     }
     .box-2{
         margin: 20px;
+        width: 468px;
     }
     .txt{
-        margin: 20px;
-        margin-right: 600px;
-        width: 90px;
-        height: 30px
+        margin-left: -20px;
+        height: 30px;
+        width: 150px;
     }
     .txt h2{
         margin-right:20px;
@@ -45,7 +45,48 @@
     }
     .card-box{
         display: flex;
-        justify-content: start;
+        flex-direction: column;
+        margin-left: -10px;
+    }
+    .card{
+        width: 245px;
+        margin-left: 80px;
+    }
+    .card P{
+        font-size: 8px;
+    }
+    .card .date{
+        text-align: start;
+    }
+    .card img{
+        width: 245px;
+    }
+    .card-1{
+        display: none;
+    }
+    .txtclass{
+        margin-left: -150px;
+        height: 30px;
+        width: 150px;
+    }
+    .txtclass h2{
+        margin-right:20px;
+        padding-top: 8px;
+        font-size: 12px;
+    }
+    .btn-class{
+        display: flex;
+        flex-direction: column;
+        margin-left: -150px;
+        margin-top: -0px;
+    }
+    .btn-class img{
+        padding-left: 120px;
+        margin: 10px;
+        width: 200px;
+    }
+    .txt-p{
+        
     }
 }
 @media screen and (min-width: 768px) {

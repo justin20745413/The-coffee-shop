@@ -8,29 +8,7 @@
     <link rel="shortcut icon" href="./index.pic/Group 41.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/CSS Reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="./RWDcss/rwd index.css">
-
-    <script src="https://kit.fontawesome.com/0f956f44d2.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <style>
-        .icon-c{
-            position: relative;
-            margin-top: 40px;
-        }
-        .card-box{
-            position: relative;
-            width: 900px;
-        }
-        .swiper-button-next{
-            color: blue;
-
-        }
-        .swiper-button-prev{
-            color: blue;
-
-        }
-    </style>
 </head>
 
 <body>
@@ -80,52 +58,64 @@
                         <div class="txt">
                             <h2>最 新 消 息</h2>
                         </div>
-                        <div class="swiper mySwiper">
-                            <div class="card-box swiper-wrapper">
-                                <div class="card swiper-slide">
+                            <div class="card-box">
+                                <div class="card">
                                     <p>新品深培美式熱銷上市</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index1.png" alt="">
+                                    <div class="img-1">
+                                        <img src="./index.pic/index1.png" alt="">
+                                    </div>
                                 </div>
-                                <div class="card swiper-slide">
+                                <div class="card-1">
                                     <p>咖啡組特價中，歡迎...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index2.png" alt="">
+                                    <div class="img-1">
+                                        <img src="./index.pic/index2.png" alt="">
+                                    </div>
                                 </div>
-                                <div class="card swiper-slide">
-                                    <a href="./hot news.html"><p>慶祝台灣隊賽進決賽...</p>
-                                    <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index3.png" alt=""></a>
+                                <div class="card-1">
+                                    <a href="./hot news.html">
+                                        <p>慶祝台灣隊賽進決賽...</p>
+                                        <p class="date"><span>2024/11/10~12/23</span></p>
+                                        <div class="img-1">
+                                            <img src="./index.pic/index3.png" alt="">
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="card swiper-slide">
+                                <div class="card-1">
                                     <p>#hashtag完城活動...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index4.png" alt="">
+                                    <div class="img-1">
+                                        <img src="./index.pic/index4.png" alt="">
+                                    </div>
                                 </div>
-                                <div class="card swiper-slide">
+                                <div class="card-1">
                                     <p>咖啡組特價中，歡迎...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index2.png" alt="">
+                                    <div class="img-1">
+                                        <img src="./index.pic/index1.png" alt="">
+                                    </div>
                                 </div>
-                                <div class="card swiper-slide">
+                                <div class="card-1">
                                     <p>慶祝台灣隊賽進決賽...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
-                                    <img src="./index.pic/index3.png" alt="">
+                                    <div class="img-1">
+                                        <img src="./index.pic/index2.png" alt="">
+                                    </div>
                                 </div>
+                                <ul id="contentButton">
                             </div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
-                            <div class="icon-c"></div>
-                        </div>  
-                    </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
                     <div class="box-3">
-                        <div class="txt">
+                        <div class="txtclass">
                             <h2>相 關 課 程</h2>
                         </div>
                         <div class="btn-class">
                             <a href=""><img src="./index.pic/index1-1.png" alt=""></a>
                             <a href=""><img src="./index.pic/index1-2.png" alt=""></a>
-
                         </div>
                     </div>
                 </div>
@@ -212,27 +202,6 @@
         </div>
     </footer>
 
-
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 4,
-            centeredSlides: true,
-            autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-        },
-            spaceBetween: 30,
-            grabCursor: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-        },
-        });
-    </script>
 </body>
 
 </html>
