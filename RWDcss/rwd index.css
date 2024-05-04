@@ -5,6 +5,14 @@
 }
 /* -------------------- */
 @media screen and (max-width: 767px) {
+    body::-webkit-scrollbar{
+    }
+    .section{
+        overflow-x: hidden;
+    }
+    .section::-webkit-scrollbar{
+        display: none;
+    }
     .main-header .main-nav {
         display: none;
         position: absolute;
