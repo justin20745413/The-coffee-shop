@@ -14,8 +14,19 @@
         width: 70%;
         border: 1px solid white;
     }
+    .column{
+        overflow-x: hidden;
+    }
     .main-nav a{
         margin-left: 0px;
+    }
+    .txt{
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
     }
     .footer{
         background-color: rgb(32, 32, 32);

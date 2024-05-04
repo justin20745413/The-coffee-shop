@@ -91,8 +91,10 @@ margin-left: 20px;
     font-size: 20px;
 }
 .col-1 li{
-    line-height: 25px;
+    line-height: 20px;
     list-style: number;
+    font-size: 12px;
+    margin-left: 15px;
 }
 .col-1 p{
     margin: 10px;

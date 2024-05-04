@@ -17,6 +17,32 @@
     .main-nav a{
         margin-left: 0px;
     }
+    h2{
+        margin-top: -30px;
+    }
+    .col-1 li{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .box label{
+        font-size: 12px;
+    }
+    .box{
+        margin-right: 60px;
+    }
+    .box input{
+        width: 150px;
+    }
+    .box-1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    textarea{
+        margin-top: 10px;
+    }
+    .btn-box button{
+        margin-bottom: 0px;
+    }
     .footer{
         background-color: rgb(32, 32, 32);
         height: 300px;
