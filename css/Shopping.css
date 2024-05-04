@@ -90,7 +90,9 @@ li{
     margin-left: 100px;
 }
 .cardbox1{
+    border-top: 1px solid white;
     display: flex;
+    flex-direction: row;
     background-color: rgb(32, 32, 32);
     padding: 70px 100px 50px 100px;
     border-radius: 20px 20px 0 0;
@@ -144,9 +146,9 @@ h4{
     border-radius: 0 0 20px 20px;
 }
 .btn{
-    display: flex;
     justify-content: end;
-    margin-top: 50px;
+    margin-top: 400px;
+    margin-left: -100px;
 }
 .more-btn{
     width: 60px;
@@ -161,7 +163,7 @@ h4{
     background-color: rgb(28, 47, 147);
     padding: 30px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 11px;
 }
 .end-p h4{
     margin: 0 0 10px 0;
@@ -204,6 +206,7 @@ h4{
 }
 .footer-ul li{
     margin: 8px;
+    list-style: none;
 }
 .footer-icon{
     color: aliceblue;

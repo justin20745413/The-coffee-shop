@@ -5,6 +5,9 @@
 }
 /* -------------------- */
 @media screen and (max-width: 767px) {
+    section{
+        overflow-x: hidden;
+    }
     .main-header .main-nav {
         display: none;
         position: absolute;
@@ -15,6 +18,67 @@
         border: 1px solid white;
     }
     .main-nav a{
+        margin-left: 0px;
+    }
+    .column{
+        margin: 10px;
+    }
+    .cardbox1{
+        margin-left: 10px;
+    }
+    .col-3-1{
+        flex-direction: column;
+    }
+    .cardbox1{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardbox1 h4{
+        margin: -20px 0 0 0;
+        position: relative;
+    }
+    .col-3-2{
+        flex-direction: column;
+    }
+    .cardbox2{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-3-3{
+        flex-direction: column;
+    }
+    .cardbox3{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 300px;
+        border: 1px dashed;
+        color: white;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .card:first-child {
+        border-top: 0px
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width:50%;
+    }
+    .btn{
+        justify-content: end;
+        margin-top: 0px;
+        margin: auto;
+    }
+    .end-p{
+        width: 350px;
+        margin: auto;
+    }
+    .end-p span{
         margin-left: 0px;
     }
     .footer{
