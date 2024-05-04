@@ -295,13 +295,27 @@ button{
     text-align: center;
     padding: 30px;
 }
-.class-b{
-    width: 665px;
-    padding-bottom: 100px;
+/* --------------------------- */
+.image{
+	width:350px;
+	height: 200px;
 }
-.class-b img{
-    margin: 15px;
+#sliderBoard{	/* div */
+	border-radius: 8px;
+	width: 33%;
+	margin: auto;
+    margin-bottom: 50px;
+
+	overflow: hidden;
+} 
+#content{		/* ul */
+	position: relative;
+
 }
+#content li{	/* li */
+	float: left;
+}
+/* ------------------------------------- */
 .footer{
     margin-top: 5px;
     background-color: rgb(32, 32, 32);
