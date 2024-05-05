@@ -5,6 +5,9 @@
 }
 /* -------------------- */
 @media screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
     .main-header .main-nav {
         display: none;
         position: absolute;
@@ -16,6 +19,43 @@
     }
     .main-nav a{
         margin-left: 0px;
+    }
+    .row-bg{
+        width: 400px;
+    }
+    .card-1 img{
+        margin: 50px 0px 45px 20px;
+        width: 40%;
+    }
+    .box-1{
+        margin: 50px 0px 0px 10px;
+    }
+    .txt{
+        width: 200px;
+        line-height: 17px;
+        color: white;
+    }
+    .txt li{
+        color: white;
+    }
+    .btn{
+        margin-left: -150px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+    .img-1 img{
+        width: 358px;
+        margin-top: 30px;
+    }
+    .card-2{
+        width: 340px;
+    }
+    .img-2 img{
+        width: 360px;
+    }
+    .txt-box{
+        width: 400px;
+        margin: auto;
     }
     .footer{
         background-color: rgb(32, 32, 32);

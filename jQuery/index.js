@@ -1,4 +1,4 @@
-$(function () {
+$(function nextcard() {
     let divWidth = $('#sliderBoard').width()
     let imgCount = $('#content li').length
     // alert(imgCount)
@@ -46,17 +46,3 @@ $(function () {
         $('#contentButton li').not(`:eq(${index})`).removeClass('clicked')
     }
 });
-
-// setInterval(函數, 毫秒數)
-// clearInterval(物件)
-
-// let timer = setInterval(函數, 毫秒數)
-// clearInterval(timer)
-
-// setTimeout(函數, 毫秒數)
-
-// 變數 x 本身加 1
-// x = x + 1
-// x++
-// ++x
-// x += 1

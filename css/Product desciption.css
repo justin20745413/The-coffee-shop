@@ -87,7 +87,8 @@ margin-left: 20px;
     display: flex;
 }
 .card-1 img{
-    margin: 80px 20px 45px 20px;
+    margin: 100px 0px 45px 20px;
+    width: 50%;
 }
 .box-1{
     margin: 80px 80px 0px 40px;
@@ -118,7 +119,7 @@ margin-left: 20px;
 .btn input{
     border-radius: 10px;
     border: 1px solid rgb(32, 32, 32);
-    width: 30px;
+    width: 50px;
 }
 .btn button{
     border-radius: 50px;
@@ -136,12 +137,14 @@ margin-left: 20px;
     color: aliceblue;
 }
 .img-1 img{
-    margin: 0 22px 0px 22px;
+    margin: 35px 22px 0px 22px;
 }
 .card-2{
-    margin: 0px 25px 25px 50px;
+    margin: 0px 25px 25px 20px;
     font-size: 10px;
-    width: 600px;
+    width: 618px;
+    padding: 10px;
+    background-color: white;
 }
 .card-2 p{
 margin-top: 5px;
@@ -150,12 +153,14 @@ margin-bottom: 3px;
 .card-2 li{
     line-height: 14px;
     list-style: number;
+    margin: 10px;
 }
 .card-2 span{
     margin-left: 10px;
 }
 .img-2 img{
     margin: -27px 20px 0px 20px;
+    padding-bottom: 20px;
 }
 .txt-box{
     display: flex;
