@@ -153,6 +153,7 @@ textarea{
     text-decoration: none;
     pointer-events: none;
     -webkit-touch-callout: none;
+    color: white;
 }
 .con p{
     line-height: 25px;
@@ -160,6 +161,7 @@ textarea{
     text-decoration: none;
     pointer-events: none;
     -webkit-touch-callout: none;
+    color: white;
 }
 .footer{
     margin-top: 0;
