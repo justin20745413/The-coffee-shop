@@ -153,10 +153,12 @@ textarea{
 }
 .con a{
     pointer-events: none;
+    text-decoration: none;
 }
 .con p{
     line-height: 25px;
     text-align: center;
+    text-decoration: none;
 }
 .footer{
     margin-top: 0;
