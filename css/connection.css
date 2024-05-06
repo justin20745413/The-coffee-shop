@@ -152,7 +152,6 @@ textarea{
 .con a{
     text-decoration: none;
     pointer-events: none;
-    -webkit-touch-callout: none;
     color: white;
 }
 .con p{
@@ -160,7 +159,6 @@ textarea{
     text-align: center;
     text-decoration: none;
     pointer-events: none;
-    -webkit-touch-callout: none;
     color: white;
 }
 .footer{
