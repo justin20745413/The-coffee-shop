@@ -152,12 +152,14 @@ textarea{
 .con a{
     text-decoration: none;
     pointer-events: none;
+    -webkit-touch-callout: none;
 }
 .con p{
     line-height: 25px;
     text-align: center;
     text-decoration: none;
     pointer-events: none;
+    -webkit-touch-callout: none;
 }
 .footer{
     margin-top: 0;
