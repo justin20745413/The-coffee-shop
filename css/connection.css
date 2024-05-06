@@ -151,14 +151,13 @@ textarea{
     border-bottom: 1px solid white;
     padding: 10px 80px 10px 80px;
 }
-.con a{
-    pointer-events: none;
+.con a[href^="tel:"] {
     text-decoration: none;
+    pointer-events: none;
 }
 .con p{
     line-height: 25px;
     text-align: center;
-    text-decoration: none;
 }
 .footer{
     margin-top: 0;
