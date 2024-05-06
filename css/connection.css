@@ -193,9 +193,19 @@ textarea{
 }
 .footer-li1{
     margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    pointer-events: none;
 }
-.footer-li2{
-    margin-left: 30px;
+.footer-li1{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    pointer-events: none;
+}
+.footer-li1 li{
+    text-decoration: none;
+    pointer-events: none;
 }
 .footer-ul li{
     margin: 8px;
