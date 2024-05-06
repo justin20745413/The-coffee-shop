@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/CSS Reset.css">
     <link rel="stylesheet" href="./RWDcss/rwd index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/0f956f44d2.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
@@ -60,22 +63,23 @@
                         <div class="txt">
                             <h2>最 新 消 息</h2>
                         </div>
-                            <div class="card-box">
-                                <div class="card">
+                        <div class="carousel">
+                            <div class="card-box container">
+                                <div class="card content">
                                     <p>新品深培美式熱銷上市</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
                                     <div class="img-1">
                                         <img src="./index.pic/index1.png" alt="">
                                     </div>
                                 </div>
-                                <div class="card-1">
+                                <div class="card-1 content">
                                     <p>咖啡組特價中，歡迎...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
                                     <div class="img-1">
                                         <img src="./index.pic/index2.png" alt="">
                                     </div>
                                 </div>
-                                <div class="card-1">
+                                <div class="card-1 content">
                                     <a href="./hot news.html">
                                         <p>慶祝台灣隊賽進決賽...</p>
                                         <p class="date"><span>2024/11/10~12/23</span></p>
@@ -84,29 +88,29 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="card-1">
+                                <div class="card-1 content">
                                     <p>#hashtag完城活動...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
                                     <div class="img-1">
                                         <img src="./index.pic/index4.png" alt="">
                                     </div>
                                 </div>
-                                <div class="card-1">
+                                <div class="card-1 content">
                                     <p>咖啡組特價中，歡迎...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
                                     <div class="img-1">
                                         <img src="./index.pic/index1.png" alt="">
                                     </div>
                                 </div>
-                                <div class="card-1">
+                                <div class="card-1 content">
                                     <p>慶祝台灣隊賽進決賽...</p>
                                     <p class="date"><span>2024/11/10~12/23</span></p>
                                     <div class="img-1">
                                         <img src="./index.pic/index2.png" alt="">
                                     </div>
                                 </div>
-                                <ul id="contentButton">
                             </div>
+                        </div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-pagination"></div>
@@ -115,7 +119,8 @@
                         <div class="txtclass">
                             <h2>相 關 課 程</h2>
                         </div>
-                        <div class="btn-class">
+                        <div class="btn-class" data-aos="fade-up"
+                        data-aos-anchor-placement="top-center">
                             <a href=""><img src="./index.pic/index1-1.png" alt=""></a>
                             <a href=""><img src="./index.pic/index1-2.png" alt=""></a>
                         </div>
@@ -210,6 +215,10 @@
     </footer>
 
 </body>
-<script src="./jQuery/index.js"></script>
+    <script src="./jQuery/index.js"></script>
+    <!-- <script src="./jQuery/index-new.js"></script> -->
+    <script>
+        AOS.init();
+    </script>
 
 </html>
