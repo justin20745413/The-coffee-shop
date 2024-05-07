@@ -127,18 +127,17 @@ margin-left: 20px;
 }
 .card-box{
     display: flex;
+    width: 800px;
+    border: 1px solid white;
 }
 .card{
     display: flex;
     border: 1px solid white;
-    flex-direction: column;
-    margin: 10px;
 }
 .card-1{
     display: flex;
     border: 1px solid white;
     flex-direction: column;
-    margin: 10px;
 }
 a{
     text-decoration:none
