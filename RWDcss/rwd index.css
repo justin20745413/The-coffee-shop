@@ -36,39 +36,25 @@
         width: 100%;
     }
     .box-2{
+        margin: auto;
         margin: 20px;
-        width: 468px;
+        width: 268px;
+        height: 450px;
     }
     .txt{
-        margin-left: -20px;
         height: 30px;
         width: 150px;
+        background-color: rgb(28, 47, 147);
+        margin-left: -20px;
     }
     .txt h2{
         margin-right:20px;
         padding-top: 8px;
         font-size: 12px;
     }
-    .card-box{
-        display: flex;
-        flex-direction: column;
-        margin-left: -10px;
-    }
-    .card{
-        width: 245px;
-        margin-left: 80px;
-    }
-    .card P{
-        font-size: 8px;
-    }
-    .card .date{
-        text-align: start;
-    }
-    .card img{
-        width: 245px;
-    }
-    .card-1{
-        display: none;
+    .item img{
+        width: 100px;
+        height: 200px;
     }
     .txtclass{
         margin-left: -150px;
