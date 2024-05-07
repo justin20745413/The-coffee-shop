@@ -15,15 +15,52 @@
     <script src="https://kit.fontawesome.com/0f956f44d2.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta name="format-detection" content="telephone=no">
-    <!-- owl.carousel -->
+    owl.carousel
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     </link>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     </link>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <style>
+        .owl-theme .item {
+            height: 280px;
+            background: rgb(32,32,32);
+            padding: 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 2px solid white;
+        }
+        .owl-carousel .item h4 {
+            color: #fff;
+            font-size: 12px;
+            margin-top: 6px;
+            margin-left: 3px;
+            margin-right: 0px;
+            line-height: 20px;
+        }
+        .owl-theme .item p{
+            font-size: 8px;
+        }
+        .owl-carousel{
+            width: 800px;
+            margin-top: 50px;
+        }
+        .owl-carousel button{
+            color:white;
+        }
+        .owl-carousel p{
+            color: rgb(145, 145, 145);
+            margin: 0;
+            margin-left: 80px;
+            margin-bottom: 0;
+        }
+        .owl-carousel img{
+            height: 220px;
+            margin-top: 0;
+        }
     </style>
 </head>
 
@@ -74,7 +111,38 @@
                         <div class="txt">
                             <h2>最 新 消 息</h2>
                         </div>
-
+                        <div class="owl-carousel owl-theme owl-drag">
+                            <div class="item">
+                                <h4>新品深培美式熱銷上市，期間凡購買新品享88折</h4>
+                                <p>2024/02/18-3/18</p>
+                                <img src="./index.pic/hot news 1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <h4>咖啡特惠組特價中，歡迎參觀選購</h4>
+                                <p>2024/03/18-4/18</p>
+                                <img src="./index.pic/hot news 2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <h4>慶祝台灣隊賽進決賽，咖非全品項一律95折優惠</h4>
+                                <p>2024/04/18-5/18</p>
+                                <img src="./index.pic/hot news 3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <h4> #hashtag完城活動，獲得精美小禮物</h4>
+                                <p>2024/05/18-6/18</p>
+                                <img src="./index.pic/hot news 4.png" alt="">
+                            </div>
+                            <div class="item">
+                                <h4>新品深培美式熱銷上市，期間凡購買新品享88折</h4>
+                                <p>2024/06/18-7/18</p>
+                                <img src="./index.pic/hot news 1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <h4> 限量經典陶瓷咖啡杯，歡迎到店選購</h4>
+                                <p>2024/07/18-8/18</p>
+                                <img src="./index.pic/hot news 5.png" alt="">
+                            </div>
+                        </div>
                     </div>
                     <div class="box-3">
                         <div class="txtclass">
@@ -180,27 +248,35 @@
 
 </body>
 <script src="./jQuery/index.js"></script>
-<!-- <script src="./jQuery/index-new.js"></script> -->
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+<!-- jq -->
 <script src="jquery.min.js"></script>
+<!-- owl -->
 <script src="owlcarousel/owl.carousel.min.js"></script>
 
 <script>
-    $(".owl-carousel").owlCarousel({
-        loop: true, // 循環播放
-        margin: 10, // 外距 10px
-        nav: true, // 顯示點點
-        responsive: {
-            0: {
-                items: 1 // 螢幕大小為 0~600 顯示 1 個項目
-            },
-            600: {
-                items: 3 // 螢幕大小為 600~1000 顯示 3 個項目
-            },
-            1000: {
-                items: 3 // 螢幕大小為 1000 以上 顯示 5 個項目
-            }
+$('.owl-carousel').owlCarousel({
+    // rtl:true,
+    loop:true,
+    margin:8,
+    nav: true,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
         }
-    });
+    }
+})
 </script>
 
 </html>
